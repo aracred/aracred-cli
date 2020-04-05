@@ -4,7 +4,7 @@
 
 # Aracred CLI
 
-Aracred CLI runs SourceCred on a Discorse server, and mints the cred on chain in an Aragon DAO
+Aracred CLI runs SourceCred on a Discorse server, creates files for scores and user labels, and then lets you mint tokens for contribors in an Aragon DAO.
 
 <br>
 
