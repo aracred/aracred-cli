@@ -1,7 +1,5 @@
 [![Wallaby.js](https://img.shields.io/badge/wallaby.js-configured-green.svg)](https://wallabyjs.com)
 
-<br>
-
 # Aracred CLI
 
 Aracred CLI runs SourceCred on a Discorse server, creates files for scores and user labels, and then lets you mint tokens for contribors in an Aragon DAO.
