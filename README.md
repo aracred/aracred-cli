@@ -9,7 +9,7 @@ Aracred CLI runs SourceCred on a Discorse server, creates files for scores and u
 - Then you'll need to download and install SourceCred.
 - Then you can run `aracred` in the SourceCred folder to get a scores.
 - Then upload the scores to the DAO.
-- Then vote to approve the new mint. 
+- Then vote to approve the new mint.
 
 <br>
 
@@ -29,13 +29,17 @@ Clone this repo and install deps.
 
     git clone https://github.com/pythonpete32/aracred-cli/ && cd aracred && npm i
 
-Create a `secret.js` file in the root directory and add the following with your github token.
+Create a `secret.json` file in the root directory and add your github token.
 
-    `export default "YOUR_TOKEN_HERE";`
+```
+{
+  "key": "YOUR_KEY_HERE"
+}
+```
 
 Build the project.
 
-    npm prepublish
+    npm prerelea
 
 Link the package so it can be refrenced globaly.
 
@@ -43,36 +47,11 @@ Link the package so it can be refrenced globaly.
 
 ### Generating Scores
 
-Navigate back to the SourceCred folder and type `aracred` into the terminal. This will create `toMint.csv` and `addresses.csv` files. 
+Navigate back to the SourceCred folder and type `aracred` into the terminal. This will create `toMint.csv` and `addresses.csv` files.
 
 ### Generating User Labels
 
 Edit `addresses.csv` to add user's addresses and use `aracred addresses` to obtain a new `addresses.json` file that can be uploaded as local labels in Aragon Client.
-
-<br>
-
-## Development Commands
-
-### Run
-
-```sh
-$ npm test # run tests with Jest
-$ npm run coverage # run tests with coverage and open it on browser
-$ npm run lint # lint code
-$ npm run docs # generate docs
-$ npm run build # generate docs and transpile code
-```
-
-### Publish
-
-```sh
-$ npm release
-$ npm publish
-```
-
-It'll automatically run `test`, `lint`, `docs`, `build`, generate `CHANGELOG.md`, and push commits and tags to the remote repository.
-
-<br>
 
 ## API
 
@@ -80,8 +59,8 @@ It'll automatically run `test`, `lint`, `docs`, `build`, generate `CHANGELOG.md`
 
 #### Table of Contents
 
--   [sayHello](#sayhello)
-    -   [Parameters](#parameters)
+- [sayHello](#sayhello)
+  - [Parameters](#parameters)
 
 ### sayHello
 
@@ -89,6 +68,6 @@ This function says hello.
 
 #### Parameters
 
--   `name`  Some name to say hello for.
+- `name` Some name to say hello for.
 
 Returns **any** The hello.
