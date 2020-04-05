@@ -15,7 +15,9 @@ Aracred CLI runs SourceCred on a Discorse server, creates files for scores and u
 
 <br>
 
-## Deployment
+## How To AraCred
+
+### Installation
 
 Clone the SourceCred Repo and install deps.
 
@@ -41,11 +43,13 @@ Link the package so it can be refrenced globaly.
 
     npm link
 
-<br>
+### Generating Scores
 
-## Creating Labels
+Navigate back to the SourceCred folder and type `aracred` into the terminal. This will create `toMint.csv` and `addresses.csv` files. 
 
-Navigate back to the SourceCred folder and type `aracred` into the terminal. This will create `toMint.csv` and `addresses.csv` files. Edit `addresses.csv` to add user's addresses and use `aracred addresses` to obtain a new `addresses.json` file that can be uploaded as local labels in Aragon Client.
+### Generating User Labels
+
+Edit `addresses.csv` to add user's addresses and use `aracred addresses` to obtain a new `addresses.json` file that can be uploaded as local labels in Aragon Client.
 
 <br>
 
