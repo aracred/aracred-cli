@@ -1,8 +1,12 @@
 [![Wallaby.js](https://img.shields.io/badge/wallaby.js-configured-green.svg)](https://wallabyjs.com)
 
+<br>
+
 # Aracred CLI
 
 Aracred CLI runs SourceCred on a Discorse server, and mints the cred on chain in an Aragon DAO
+
+<br>
 
 ## Deployment
 
@@ -30,9 +34,13 @@ link the package so it can be refrenced globaly
 
     npm link
 
+<br>
+
 ## Creating Labels
 
 Navigate back to the SourceCred folder and type `aracred` into the terminal. This will create `toMint.csv` and `addresses.csv` files. Edit `addresses.csv` to add user's addresses and use `aracred addresses` to obtain a new `addresses.json` file that can be uploaded as local labels in Aragon Client.
+
+<br>
 
 ## Development Commands
 
@@ -52,6 +60,8 @@ $ npm publish
 ```
 
 It'll automatically run `test`, `lint`, `docs`, `build`, generate `CHANGELOG.md`, and push commits and tags to the remote repository.
+
+<br>
 
 ## API
 
