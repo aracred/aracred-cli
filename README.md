@@ -6,6 +6,18 @@
 
 Aracred CLI runs SourceCred on a Discorse server, creates files for scores and user labels, and then lets you mint tokens for contribors in an Aragon DAO.
 
+First you need an Aragon DAO with the [Transactions app](https://github.com/1Hive/transactions-app) installed.
+
+The first step is to download and install the AraCred CLI.
+
+Then you'll need to download and install SourceCred.
+
+Then you can run `aracred` in the SourceCred folder to get a scores.
+
+Then upload the scores to the DAO.
+
+Then vote to approve the new mint. 
+
 <br>
 
 ## Deployment
