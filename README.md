@@ -17,27 +17,27 @@ Aracred CLI runs SourceCred on a Discorse server, creates files for scores and u
 
 ## Deployment
 
-Clone the SourceCred Repo and install deps
+Clone the SourceCred Repo and install deps.
 
     git clone https://github.com/sourcecred/sourcecred.git && cd sourcecred && npm i
 
-install the aragonCLI globally. If you have trouble installing the cli, check out [this guide](https://hack.aragon.org/docs/guides-faq)
+Install the aragonCLI globally. If you have trouble installing the cli, check out [this guide](https://hack.aragon.org/docs/guides-faq).
 
     npm i -g @aragon/cli
 
-clone this repo and install deps
+Clone this repo and install deps.
 
     git clone https://github.com/pythonpete32/aracred-cli/ && cd aracred && npm i
 
-create a `secret.js` file in the root directory and add the following with your github token
+Create a `secret.js` file in the root directory and add the following with your github token.
 
     `export default "YOUR_TOKEN_HERE";`
 
-build the project 
+Build the project.
 
     npm prepublish
 
-link the package so it can be refrenced globaly
+Link the package so it can be refrenced globaly.
 
     npm link
 
