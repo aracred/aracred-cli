@@ -55,6 +55,8 @@ Edit `addresses.csv` to add user's addresses and use `aracred addresses` to obta
 
 ## Development Commands
 
+### Run
+
 ```sh
 $ npm test # run tests with Jest
 $ npm run coverage # run tests with coverage and open it on browser
