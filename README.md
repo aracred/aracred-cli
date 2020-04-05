@@ -11,6 +11,8 @@ Aracred CLI runs SourceCred on a Discorse server, creates files for scores and u
 - Then upload the scores to the DAO.
 - Then vote to approve the new mint. 
 
+You can [find a more detailed guide on this process here](https://github.com/aracred/aracred-cli/issues/1).
+
 <br>
 
 ## How To AraCred
