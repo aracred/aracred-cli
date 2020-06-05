@@ -41,7 +41,7 @@ Create a `secret.json` file in the root directory and add your github token.
 
 Build the project.
 
-    npm prerelea
+    npm run build
 
 Link the package so it can be refrenced globaly.
 
